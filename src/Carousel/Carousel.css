@@ -1,0 +1,16 @@
+/* .slick-arrow.slick-prev,
+.slick-arrow.slick-next {
+    color: yellow;
+
+} */
+
+.slick-prev:before,
+.slick-next:before {
+    color: blue;
+}
+
+.multi__image:hover {
+    transform: scale(1.1);
+    transition: 500ms;
+    cursor: pointer;
+}
